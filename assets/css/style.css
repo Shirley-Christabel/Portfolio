@@ -539,12 +539,20 @@ h6 {
   color: #fff;
 }
 
+.carousel-content p {
+  width: 100% !important;
+}
+
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
   }
 }
 
+@media (min-width: 1024px) {
+  #hero p {
+    width: 50%;
+  }
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
