@@ -844,7 +844,7 @@ section #skills .skills {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ffcf88;
+  color: #bf88ff;
 }
 
 .skills .box h4 {
@@ -1582,7 +1582,7 @@ section #skills .skills {
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff6e8;
+  background: #e8d0ff;
   display: flex;
   justify-content: center;
   align-items: center;
