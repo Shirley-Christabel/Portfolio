@@ -57,8 +57,8 @@ h6 {
 }
 
 .back-to-top i:hover {
-  background: #ffa012;
-  color: #fff;
+  background: #e8c5ff;
+  color: #9c31e4;
 }
 
 /*--------------------------------------------------------------
@@ -98,7 +98,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 10px 0;
-  background: rgba(26, 24, 22, 0.85);
+  background: rgba(25, 22, 26, 0.85);
 }
 
 #header.header-transparent {
@@ -107,7 +107,7 @@ h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(26, 24, 22, 0.85);
+  background: rgba(24, 22, 26, 0.85);
 }
 
 #header .logo h1 {
@@ -418,7 +418,7 @@ h6 {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(12, 11, 10, 0.5);
+  background-color: rgba(11, 10, 12, 0.5);
   position: absolute;
   top: 0;
   right: 0;
@@ -546,16 +546,6 @@ h6 {
   }
 }
 
-@media (min-width: 1024px) {
-  #hero p {
-    width: 50%;
-  }
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
-    width: 5%;
-  }
-}
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -576,7 +566,7 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #5f5950;
+  color: #58505f;
 }
 
 .section-title h2 span {
@@ -1018,7 +1008,7 @@ section #skills .skills {
   border: 0;
   padding: 12px 15px 12px 0;
   transition: 0.3s;
-  color: #433f39;
+  color: #3d3943;
   border-radius: 0;
   border-right: 2px solid #e8e7e4;
   font-weight: 600;
@@ -1043,7 +1033,7 @@ section #skills .skills {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #433f39;
+  color: #3d3943;
 }
 
 .experience .details p {
@@ -1076,7 +1066,7 @@ section #skills .skills {
 
 .events::before {
   content: "";
-  background-color: rgba(12, 11, 10, 0.8);
+  background-color: rgba(11, 10, 12, 0.8);
   position: absolute;
   top: 0;
   right: 0;
@@ -1611,18 +1601,18 @@ section #skills .skills {
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .php-email-formm {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 30px;
   background: #fff;
 }
 
-.contact .php-email-form .form-group {
+.contact .php-email-formm .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+.contact .php-email-formm .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -1630,7 +1620,7 @@ section #skills .skills {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact .php-email-formm .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1639,7 +1629,7 @@ section #skills .skills {
   font-weight: 600;
 }
 
-.contact .php-email-form .sent-message {
+.contact .php-email-formm .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1648,14 +1638,14 @@ section #skills .skills {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .php-email-formm .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .php-email-formm .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1668,22 +1658,22 @@ section #skills .skills {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-formm input,
+.contact .php-email-formm textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact .php-email-formm input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .php-email-formm textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-formm button[type="submit"] {
   background: #9c31e4;
   border: 0;
   padding: 10px 24px;
@@ -1692,8 +1682,8 @@ section #skills .skills {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
-  background: #ffa012;
+.contact .php-email-formm button[type="submit"]:hover {
+  background: #18d26e;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1718,7 +1708,7 @@ section #skills .skills {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #35322d;
+  background: #2f2d35;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1748,7 +1738,7 @@ section #skills .skills {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #46423b;
+  background: #3e3b46;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
