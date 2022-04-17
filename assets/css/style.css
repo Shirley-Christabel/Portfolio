@@ -810,27 +810,27 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Skills
+# projects
 --------------------------------------------------------------*/
 
-section #skills .skills {
+section #projects .projects {
   padding-top: 50px;
 }
 
-.skills .box {
+.projects .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
 }
 
-.skills .box span {
+.projects .box span {
   display: block;
   font-size: 28px;
   font-weight: 700;
   color: #bf88ff;
 }
 
-.skills .box h4 {
+.projects .box h4 {
   font-size: 24px;
   font-weight: 600;
   padding: 0;
@@ -838,43 +838,43 @@ section #skills .skills {
   color: #6c665c;
 }
 
-.skills .box p {
+.projects .box p {
   color: #aaaaaa;
   font-size: 15px;
   margin: 0;
   padding: 0;
 }
 
-.skills .box:hover {
+.projects .box:hover {
   background: #9c31e4;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.skills .box:hover span,
-.skills .box:hover h4,
-.skills .box:hover p {
+.projects .box:hover span,
+.projects .box:hover h4,
+.projects .box:hover p {
   color: #fff;
 }
 
 /*--------------------------------------------------------------
-# Features
+# skills
 --------------------------------------------------------------*/
 
-.features .icon-box .padding-icon {
+.skills .icon-box .padding-icon {
   padding-right: 10px;
 }
 
-.features .icon-box img {
+.skills .icon-box img {
   width: 32px;
   height: 32px;
 }
 
-.features {
+.skills {
   padding-top: 0;
 }
 
-.features .icon-box {
+.skills .icon-box {
   display: flex;
   align-items: center;
   padding: 20px;
@@ -882,13 +882,13 @@ section #skills .skills {
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
 }
 
-.features .icon-box i {
+.skills .icon-box i {
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
 }
 
-.features .icon-box h3 {
+.skills .icon-box h3 {
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -896,12 +896,12 @@ section #skills .skills {
   font-size: 16px;
 }
 
-.features .icon-box h3 a {
+.skills .icon-box h3 a {
   color: #493c3e;
   transition: ease-in-out 0.3s;
 }
 
-.features .icon-box:hover a {
+.skills .icon-box:hover a {
   color: #9c31e4;
 }
 
@@ -1439,7 +1439,7 @@ section #skills .skills {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/ArmyBomb.jpg") no-repeat;
+  background: url("../img/ArmyBombNew.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
